@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron";
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.section {
+  padding: 7rem 0 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.list-item {
+  font-size: 1.2rem;
+}
+
+.hero-container {
+  padding-left: 8%;
+  padding-right: 8%;
+  row-gap: 1rem;
+  margin-top: 5rem;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-button {
+  height: 100%;
+  width: 100%;
+  padding: 0.1rem 1rem;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 1rem;
+  background-color: #fff;
+  font-family: 'Poppins';
+}
+
+.search-icon svg {
+  width: 20px;
+  height: 20px;
+  margin: 10px 10px;
+}
+
+.logo img {
+  width: 100%;
+  height: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: .5rem;
+}
+
+
+.person-img img {
+  position: absolute;
+  top: 0px;
+  height: 470px;
+}
+
+.square {
+  position: absolute;
+  top: 195px;
+  left: 230px;
+  /* width: 20px; */
+  height: 0px;
+}
+
+.square img {
+  height: 330px;
+}
+
+.hero-container {
+  position: relative;
+  /* grid-template-columns: repeat(1, 1fr); */
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.hero-heading{
+  text-align: center;
+  font-weight: 100;
+  margin-left: -4rem;
+  margin-right: -4rem;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.hero-description{
+  padding: 10px 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: .8rem;
+  font-weight: 300;
+}
+
+.subscribe-btn{
+  margin: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-email{
+  padding: 0px 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+  font-size: 1.2rem;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.button-join{
+  padding: 0px 3px;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  margin: 5px;
+  background-color: #000000;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.contact{
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-heading{
+  font-size: 1rem;
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.icons span img{
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem 0.7rem;
+}
+
+.globe img{
+  height: 3rem;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
+
+.star img{
+  height: 2.5rem;
+  position: absolute;
+  top: -1rem;
+  right: 7rem;
+}
+
+.star2 img{
+  height: 1.8rem;
+  position: fixed;
+  bottom: 8rem;
+ 
+}
