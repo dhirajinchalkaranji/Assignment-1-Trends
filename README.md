@@ -3,7 +3,7 @@
 
 ### ![LCO Mascout](https://learncodeonline.in/mascot.png) 
 
-## ¶ live link :- [Trends](https://project3-justice.netlify.app/)
+## ¶ live link :- [Trends](https://assignment-1-trends.netlify.app)
 
 ---
 ![preview](./assets/1.png)
